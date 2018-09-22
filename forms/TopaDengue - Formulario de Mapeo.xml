@@ -1,0 +1,194 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>TopaDengue - Formulario de Mapeo</h:title>
+    <model>
+      <instance>
+        <data id="build_TopaDengue-Formulario-de-Mapeo_1535052069">
+          <meta>
+            <instanceID/>
+          </meta>
+          <start/>
+          <date/>
+          <group/>
+          <locations jr:template="">
+            <number/>
+            <coordinates/>
+            <type/>
+            <obs/>
+          </locations>
+          <end/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="Español">
+          <text id="/data/group:label">
+            <value>Número de Manzana</value>
+          </text>
+          <text id="/data/group:hint">
+            <value></value>
+          </text>
+          <text id="/data/locations:label">
+            <value>Casas o lugares en la manzana</value>
+          </text>
+          <text id="/data/locations/number:label">
+            <value>Número de casas o lugar</value>
+          </text>
+          <text id="/data/locations/number:hint">
+            <value></value>
+          </text>
+          <text id="/data/locations/coordinates:label">
+            <value>Coordenadas de la Manzana</value>
+          </text>
+          <text id="/data/locations/coordinates:hint">
+            <value>Apriete el botón y espere a que el GPS le dé las coordenadas precisas</value>
+          </text>
+          <text id="/data/locations/type:label">
+            <value>Tipo de lugar</value>
+          </text>
+          <text id="/data/locations/type:option0">
+            <value>Vivienda</value>
+          </text>
+          <text id="/data/locations/type:option1">
+            <value>Gomería</value>
+          </text>
+          <text id="/data/locations/type:option2">
+            <value>Institución Pública</value>
+          </text>
+          <text id="/data/locations/type:option3">
+            <value>Recicladora</value>
+          </text>
+          <text id="/data/locations/type:option4">
+            <value>Baldío</value>
+          </text>
+          <text id="/data/locations/type:option5">
+            <value>Hospital / Sanatorio / Centro de Salud / Unidad de Salud Familiar</value>
+          </text>
+          <text id="/data/locations/type:option6">
+            <value>Obra / Construcción</value>
+          </text>
+          <text id="/data/locations/type:option7">
+            <value>Taller</value>
+          </text>
+          <text id="/data/locations/type:option8">
+            <value>Comercio</value>
+          </text>
+          <text id="/data/locations/type:option9">
+            <value>Chatarrería</value>
+          </text>
+          <text id="/data/locations/type:option10">
+            <value>Casa o construcción deshabitada</value>
+          </text>
+          <text id="/data/locations/type:option11">
+            <value>Espacio Público</value>
+          </text>
+          <text id="/data/locations/type:option12">
+            <value>Institución Educativa</value>
+          </text>
+          <text id="/data/locations/type:option13">
+            <value>Otros</value>
+          </text>
+          <text id="/data/locations/obs:label">
+            <value>Observaciones</value>
+          </text>
+          <text id="/data/locations/obs:hint">
+            <value>Solo si se quiere anotar algún comentario importante sobre el lugar</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/1MiaKmc1y-cYLjHpdVBj0w2xdp7_cfQTeIVFFY7kzlpM/edit#gid=0"/>
+      <bind nodeset="/data/start" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/date" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/group" type="int" required="true()"/>
+      <bind nodeset="/data/locations/number" type="int" required="true()" calculate="position(..)"/>
+      <bind nodeset="/data/locations/coordinates" type="geopoint"/>
+      <bind nodeset="/data/locations/type" type="select1"/>
+      <bind nodeset="/data/locations/obs" type="string"/>
+      <bind nodeset="/data/end" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/group">
+      <label ref="jr:itext('/data/group:label')"/>
+      <hint ref="jr:itext('/data/group:hint')"/>
+    </input>
+    <group>
+      <label ref="jr:itext('/data/locations:label')"/>
+      <repeat nodeset="/data/locations">
+        <group appearance="field-list">
+          <range ref="/data/locations/number" start="1" end="100" step="1" appearance="picker">
+            <label ref="jr:itext('/data/locations/number:label')"/>
+            <hint ref="jr:itext('/data/locations/number:hint')"/>
+          </range>
+          <input ref="/data/locations/coordinates">
+            <label ref="jr:itext('/data/locations/coordinates:label')"/>
+            <hint ref="jr:itext('/data/locations/coordinates:hint')"/>
+          </input>
+          <select1 ref="/data/locations/type">
+            <label ref="jr:itext('/data/locations/type:label')"/>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option0')"/>
+              <value>V</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option1')"/>
+              <value>G</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option2')"/>
+              <value>P</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option3')"/>
+              <value>R</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option4')"/>
+              <value>B</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option5')"/>
+              <value>H</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option6')"/>
+              <value>O</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option7')"/>
+              <value>T</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option8')"/>
+              <value>C</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option9')"/>
+              <value>Ch</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option10')"/>
+              <value>D</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option11')"/>
+              <value>Pu</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option12')"/>
+              <value>ED</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/locations/type:option13')"/>
+              <value>X</value>
+            </item>
+          </select1>
+          <input ref="/data/locations/obs">
+            <label ref="jr:itext('/data/locations/obs:label')"/>
+            <hint ref="jr:itext('/data/locations/obs:hint')"/>
+          </input>
+        </group>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>

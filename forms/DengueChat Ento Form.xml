@@ -1,0 +1,1264 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>DengueChat Ento Form (Paraguay)</h:title>
+    <model>
+      <instance>
+        <data id="build_DengueChat-Ento-Form_1536101844">
+          <meta>
+            <instanceID/>
+            <instanceName/>
+          </meta>
+          <metadata_collection_date/>
+          <metadata_start_time/>
+          <location>
+            <location_code/>
+          </location>
+          <location_data>
+            <location_code_manual/>
+            <location_type/>
+            <location_coordinates/>
+          </location_data>
+          <visit_group jr:template="">
+            <visit_date/>
+            <location_status/>
+            <visit_form>
+              <visit>
+                <visit_host_gender/>
+                <visit_host_age/>
+                <services_fumigation>
+                  0
+                </services_fumigation>
+                <services_larvicide>
+                  0
+                </services_larvicide>
+                <visit_obs/>
+              </visit>
+              <autoreporte>
+                0
+              </autoreporte>
+              <auto_report_numbers>
+                <auto_report_number_dengue/>
+                <auto_report_number_chik/>
+                <auto_reporte_number_zika/>
+                <auto_report_zika_number_pregnant>
+                  0
+                </auto_report_zika_number_pregnant>
+              </auto_report_numbers>
+              <symptoms>
+                0
+              </symptoms>
+              <symptoms_report>
+                <symptoms_gender/>
+                <symptom_list/>
+              </symptoms_report>
+            </visit_form>
+            <inspection jr:template="">
+              <breeding_site_code/>
+              <breeding_site_amount/>
+              <br_protected>
+                0
+              </br_protected>
+              <br_larvae/>
+              <br_pupae/>
+              <breeding_site_description/>
+              <br_picture/>
+              <br_elimination_date/>
+              <br_elimination_picture/>
+            </inspection>
+          </visit_group>
+          <metadata_end_time/>
+          <metadata_device_id/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="Spanish">
+          <text id="/data/location:label">
+            <value>Código de barras con identificación del sitio</value>
+          </text>
+          <text id="/data/location/location_code:label">
+            <value>Código de barras que contiene la información de identificación del sitio.</value>
+          </text>
+          <text id="/data/location/location_code:hint">
+            <value>Apunta al código de barras  de identificación del lugar, presente en tu formulario de papel o en una calcomanía en el lugar. </value>
+          </text>
+          <text id="/data/location/location_code:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data:label">
+            <value>Datos sobre el sitio</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:label">
+            <value>Código del sitio</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:hint">
+            <value>En caso que el código de barras no funcione, registre manualmente el código del sitio. Para identificar a cada sitio, se usa el número de manzana, seguido de un número relativo de la casa  (por ejemplo, 99999001 corresponde a la casa o sitio 001 de la manzana 99999)</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data/location_type:label">
+            <value>Tipo de sitio</value>
+          </text>
+          <text id="/data/location_data/location_type:hint">
+            <value>V = Vivienda, G = Gomería, P = Inst. Pública, Re = Recicladora, B = Baldío, H = Hospital / Sanatorio, O = Obra / Construcción, T = Taller, C = Comercio, Ch = Chatarrería, D = Deshabitada, Pu = Espacio Público, ED = Inst. Educativa, X = Otros</value>
+          </text>
+          <text id="/data/location_data/location_type:option0">
+            <value>Vivienda</value>
+          </text>
+          <text id="/data/location_data/location_type:option1">
+            <value>Gomería</value>
+          </text>
+          <text id="/data/location_data/location_type:option2">
+            <value>Institución pública</value>
+          </text>
+          <text id="/data/location_data/location_type:option3">
+            <value>Recicladora</value>
+          </text>
+          <text id="/data/location_data/location_type:option4">
+            <value>Baldío</value>
+          </text>
+          <text id="/data/location_data/location_type:option5">
+            <value>Hospital / Sanatorio / Unidad de Salud Familiar</value>
+          </text>
+          <text id="/data/location_data/location_type:option6">
+            <value>Obra / Construcción</value>
+          </text>
+          <text id="/data/location_data/location_type:option7">
+            <value>Taller</value>
+          </text>
+          <text id="/data/location_data/location_type:option8">
+            <value>Comercio</value>
+          </text>
+          <text id="/data/location_data/location_type:option9">
+            <value>Chatarrería</value>
+          </text>
+          <text id="/data/location_data/location_type:option10">
+            <value>Casa o construcción deshabitada</value>
+          </text>
+          <text id="/data/location_data/location_type:option11">
+            <value>Espacio Público</value>
+          </text>
+          <text id="/data/location_data/location_type:option12">
+            <value>Institución Educativa</value>
+          </text>
+          <text id="/data/location_data/location_type:option13">
+            <value>Otros</value>
+          </text>
+          <text id="/data/location_data/location_type:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data/location_coordinates:label">
+            <value>Renovar coordenadas geográficas del lugar</value>
+          </text>
+          <text id="/data/location_data/location_coordinates:hint">
+            <value>(SOLO SI ESTAMOS EN EL SITIO) Si el dispositivo tiene GPS, registre las coordenadas geográfica de la casa </value>
+          </text>
+          <text id="/data/location_data/location_coordinates:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group:label">
+            <value>Visita</value>
+          </text>
+          <text id="/data/visit_group/visit_date:label">
+            <value>Fecha de visita </value>
+          </text>
+          <text id="/data/visit_group/visit_date:hint">
+            <value>Actualizar solo si se carga un formulario en una fecha diferente a la fecha de la visita. </value>
+          </text>
+          <text id="/data/visit_group/visit_date:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_date:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/location_status:label">
+            <value>¿Estado del Lugar?</value>
+          </text>
+          <text id="/data/visit_group/location_status:hint">
+            <value>E = Efectivo, C = Cerrado, R = Rechazado</value>
+          </text>
+          <text id="/data/visit_group/location_status:option0">
+            <value>Efectivo</value>
+          </text>
+          <text id="/data/visit_group/location_status:option1">
+            <value>Cerrado</value>
+          </text>
+          <text id="/data/visit_group/location_status:option2">
+            <value>Rechazado</value>
+          </text>
+          <text id="/data/visit_group/visit_form:label">
+            <value>Formulario de visita efectiva</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit:label">
+            <value>Datos sobre la visita</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:label">
+            <value>¿Sexo del/a anfitrión/a?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:option0">
+            <value>Hombre</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:option1">
+            <value>Mujer</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:label">
+            <value>¿Cuál es la edad del/a anfitrión/a?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:hint">
+            <value>Preguntar primero el nombre, aunque no se registre, porque es más respetuoso. Solo luego de preguntar el nombre, preguntar la edad</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:label">
+            <value>¿El los últimos 15 días, SENEPA visitó esta vivienda para fumigar?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:label">
+            <value>El los últimos 15 días SENEPA visitó esta vivienda para aplicar larvicida?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:label">
+            <value>Observaciones sobre la visita</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:hint">
+            <value>Para comentarios opcionales que sean importantes</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:label">
+            <value>¿Alguien tuvo Dengue, Zika o Chikungunya en la casa?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers:label">
+            <value>Números de casos auto-reportados durante el año</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_dengue:label">
+            <value>¿Cuántas personas tuvieron Dengue? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_chik:label">
+            <value>¿Cuántas personas tuvieron Chikungunya? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_reporte_number_zika:label">
+            <value>¿Cuántas personas tuvieron Zika? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:label">
+            <value>¿Alguna embarazada entre las mujeres que tuvieron zika? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:hint">
+            <value>Preguntar solo si hubieron mujeres con Zika</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:label">
+            <value>¿Estoy en la casa de la persona con sintomas de enfermedad?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:hint">
+            <value>Los síntomas pueden ser fiebre, malestar, dolor muscular, dolor articular, dolor abdominal, brote de color rojo en el cuerpo, conjuntivitis, dolor de cabeza</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report:label">
+            <value>Reporte de síntomas</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:label">
+            <value>¿La persona con sintomas es mujer o hombre?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option0">
+            <value>Mujer</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option1">
+            <value>Hombre</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option2">
+            <value>Rather not say</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:label">
+            <value>Seleccionan los sintomas de la persona</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option0">
+            <value>Fiebre</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option1">
+            <value>Malestar</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option2">
+            <value>Dolor muscular</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option3">
+            <value>Dolor articular</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option4">
+            <value>Dolor abdominal</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option5">
+            <value>Brote de color rojo en el cuerpo</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option6">
+            <value>Conjuntivitis</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option7">
+            <value>Dolor de cabeza</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option8">
+            <value>Otro</value>
+          </text>
+          <text id="/data/visit_group/inspection:label">
+            <value>Inspección de Criaderos</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:label">
+            <value>Tipo de Criadero</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:hint">
+            <value>Lista de códigos: A - Plato de animales, P - Pileta, B - Barril, T - Tina, cubeta, balde, botella, L - Llanta, X - Otros, M - Macetera o florero con agua, N - Negativo (sin criaderos positivos o potenciales)</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option0">
+            <value>A - Plato de animales</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option1">
+            <value>P - Pileta</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option2">
+            <value>B - Barril</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option3">
+            <value>T - Tina, cubeta, balde, botella</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option4">
+            <value>L - Llanta</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option5">
+            <value>M - Macetera o florero con agua</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option6">
+            <value>X - Otros</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_amount:label">
+            <value>¿Cuántos criaderos de este tipo hay en el mismo estado de protegido o no protegido, con o sin larvas, con o sin pupas? </value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:label">
+            <value>¿Protegido?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:label">
+            <value>¿Larvas?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:label">
+            <value>¿Pupas?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_description:label">
+            <value>Puedes describir el criadero? </value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_description:hint">
+            <value>Solo en el caso de que hayas marcado X - Otros</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:label">
+            <value>Foto del criadero</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:hint">
+            <value>Sólo cuando se trata de un riesgo alto</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:label">
+            <value>Fecha de eliminación</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:hint">
+            <value>Si lo eliminas, o si se trata de un criadero identificado la semana pasada que ahora fue eliminado, registra la fecha</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:label">
+            <value>Foto de Eliminación</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:constraintMsg">
+            <value></value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="/data/location:label">
+            <value>Location ID barcode</value>
+          </text>
+          <text id="/data/location/location_code:label">
+            <value>Barcode representing the metadata about the place</value>
+          </text>
+          <text id="/data/location/location_code:hint">
+            <value>Point to the barcode on your paper form or in the location sticker if it is available at the location</value>
+          </text>
+          <text id="/data/location/location_code:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data:label">
+            <value>Data about the location</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:label">
+            <value>Location code</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:hint">
+            <value>If the barcode does not work or is not available, manually input the location code</value>
+          </text>
+          <text id="/data/location_data/location_code_manual:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data/location_type:label">
+            <value>Location type</value>
+          </text>
+          <text id="/data/location_data/location_type:hint">
+            <value>V = House, G = Tire repair shop, P = Public Institute, Re = Recycler place, B = Empty land, H = Hospital / Sanatorium, O = Work / Construction, T = Workshop, C = Commerce, Ch = Junkyard, D = Uninhabited, X = Other</value>
+          </text>
+          <text id="/data/location_data/location_type:option0">
+            <value>House</value>
+          </text>
+          <text id="/data/location_data/location_type:option1">
+            <value>Tire repair shop</value>
+          </text>
+          <text id="/data/location_data/location_type:option2">
+            <value>Public institution</value>
+          </text>
+          <text id="/data/location_data/location_type:option3">
+            <value>Recycler place</value>
+          </text>
+          <text id="/data/location_data/location_type:option4">
+            <value>Empty land</value>
+          </text>
+          <text id="/data/location_data/location_type:option5">
+            <value>Hospital / Sanatorium</value>
+          </text>
+          <text id="/data/location_data/location_type:option6">
+            <value>Construction place</value>
+          </text>
+          <text id="/data/location_data/location_type:option7">
+            <value>Workshop</value>
+          </text>
+          <text id="/data/location_data/location_type:option8">
+            <value>Comercial place</value>
+          </text>
+          <text id="/data/location_data/location_type:option9">
+            <value>Junkyard</value>
+          </text>
+          <text id="/data/location_data/location_type:option10">
+            <value>Uninhabited house</value>
+          </text>
+          <text id="/data/location_data/location_type:option11">
+            <value>Public Space</value>
+          </text>
+          <text id="/data/location_data/location_type:option12">
+            <value>Institución Educativa</value>
+          </text>
+          <text id="/data/location_data/location_type:option13">
+            <value>Other</value>
+          </text>
+          <text id="/data/location_data/location_type:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/location_data/location_coordinates:label">
+            <value>Renew location coordinates</value>
+          </text>
+          <text id="/data/location_data/location_coordinates:hint">
+            <value>If your device has GPS, register the location of the place</value>
+          </text>
+          <text id="/data/location_data/location_coordinates:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group:label">
+            <value>Visit</value>
+          </text>
+          <text id="/data/visit_group/visit_date:label">
+            <value>Date of the visit</value>
+          </text>
+          <text id="/data/visit_group/visit_date:hint">
+            <value>Automatically set to TODAY, but could be edited if needed. Use the format YYYY-MM-DD</value>
+          </text>
+          <text id="/data/visit_group/visit_date:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_date:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/location_status:label">
+            <value>Status of the location?</value>
+          </text>
+          <text id="/data/visit_group/location_status:hint">
+            <value>E = Efective, C = Closed, R = Rejected</value>
+          </text>
+          <text id="/data/visit_group/location_status:option0">
+            <value>Efective</value>
+          </text>
+          <text id="/data/visit_group/location_status:option1">
+            <value>Closed</value>
+          </text>
+          <text id="/data/visit_group/location_status:option2">
+            <value>Rejected</value>
+          </text>
+          <text id="/data/visit_group/visit_form:label">
+            <value>Formulario de visita efectiva</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit:label">
+            <value>Data about the visit</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:label">
+            <value>¿What's the location host gender? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:option0">
+            <value>Man</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:option1">
+            <value>Woman</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_gender:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:label">
+            <value>What's the location's host age?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:hint">
+            <value>Preguntar primero el nombre, aunque no se registre, porque es más respetuoso. Solo luego de preguntar el nombre, preguntar la edad</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_host_age:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:label">
+            <value>Did health services fumigated this place in the last 15 days?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_fumigation:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:label">
+            <value>Did health services visit this place to apply larvicide in the last 15 days?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/services_larvicide:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:label">
+            <value>Observations about the visit</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:hint">
+            <value>Para comentarios opcionales que sean importantes</value>
+          </text>
+          <text id="/data/visit_group/visit_form/visit/visit_obs:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:label">
+            <value>Did somebody have Dengue, Zika or Chikungunya?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/visit_group/visit_form/autoreporte:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers:label">
+            <value>Números de casos auto-reportados durante el año</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_dengue:label">
+            <value>¿Cuántas personas tuvieron Dengue? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_chik:label">
+            <value>¿Cuántas personas tuvieron Chikungunya? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_reporte_number_zika:label">
+            <value>¿Cuántas personas tuvieron Zika? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:label">
+            <value>¿Alguna embarazada entre las mujeres que tuvieron zika? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:hint">
+            <value>Preguntar solo si hubieron mujeres con Zika</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:label">
+            <value>Am I at the place of a person with symptoms? </value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:hint">
+            <value>Los síntomas pueden ser fiebre, malestar, dolor muscular, dolor articular, dolor abdominal, brote de color rojo en el cuerpo, conjuntivitis, dolor de cabeza</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:option0">
+            <value>SI</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report:label">
+            <value>Symptoms report</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:label">
+            <value>Gender of the person with symptoms?</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option0">
+            <value>Woman</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option1">
+            <value>Man</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptoms_gender:option2">
+            <value>Prefiere no decir</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:label">
+            <value>Select symptoms</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option0">
+            <value>Fever</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option1">
+            <value>Discomfort</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option2">
+            <value>Muscle pain</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option3">
+            <value>Articulations pain</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option4">
+            <value>Abdominal pain</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option5">
+            <value>Body red rash</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option6">
+            <value>Conjuntivitis</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option7">
+            <value>Headache</value>
+          </text>
+          <text id="/data/visit_group/visit_form/symptoms_report/symptom_list:option8">
+            <value>Other</value>
+          </text>
+          <text id="/data/visit_group/inspection:label">
+            <value>Breeding site inspections</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:label">
+            <value>Breeding Site Type</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:hint">
+            <value>Lista de códigos: A - Plato de animales, P - Pileta, B - Barril, T - Tina, cubeta, balde, botella, L - Llanta, X - Otros, M - Macetera o florero con agua, N - Negativo (sin criaderos positivos o potenciales)</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option0">
+            <value>A - Plate of animals</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option1">
+            <value>P - Pileta</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option2">
+            <value>B - Barril</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option3">
+            <value>T - Tina, cubeta, balde, botella</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option4">
+            <value>L - Llanta</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option5">
+            <value>M - Macetera o florero con agua</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_code:option6">
+            <value>X - Otros</value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_amount:label">
+            <value>¿Cuántos criaderos de este tipo hay en el mismo estado de Protegido, con larvas o con pupas? </value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:label">
+            <value>Protected?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:requiredMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_protected:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:label">
+            <value>Has larvae?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_larvae:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:label">
+            <value>Has pupae?</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:option0">
+            <value>YES</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:option1">
+            <value>NO</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_pupae:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_description:label">
+            <value>Puedes describir el criadero? </value>
+          </text>
+          <text id="/data/visit_group/inspection/breeding_site_description:hint">
+            <value>Solo en el caso de que hayas marcado X - Otros</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:label">
+            <value>Picture of Breeding Site</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:hint">
+            <value>Only when it represents an important risk</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_picture:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:label">
+            <value>Elimination date</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:hint">
+            <value>If you dispose the breeding site, or if it is a breeding site detected in previous weeks that is no longer there, register the date</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_date:constraintMsg">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:label">
+            <value>Picture of the Elimination</value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:hint">
+            <value></value>
+          </text>
+          <text id="/data/visit_group/inspection/br_elimination_picture:constraintMsg">
+            <value></value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/meta/instanceName" type="string" calculate="denguechat_ento_form_py"/>
+      <submission method="form-data-post" action="https://docs.google.com/spreadsheets/d/1G0-JLa_FtC2wKwQftuKU1ARlg2tChPh3iCXzbOHQ6iE/edit#gid=0"/>
+      <bind nodeset="/data/metadata_collection_date" type="date" jr:preload="date" jr:preloadParams="today"/>
+      <bind nodeset="/data/metadata_start_time" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/location/location_code" type="barcode" jr:constraintMsg="jr:itext('/data/location/location_code:constraintMsg')"/>
+      <bind nodeset="/data/location_data/location_code_manual" type="string" calculate="substr(/data/location/location_code,0,8)" jr:constraintMsg="jr:itext('/data/location_data/location_code_manual:constraintMsg')"/>
+      <bind nodeset="/data/location_data/location_type" type="select1" calculate="substr(/data/location/location_code,8,10)" jr:constraintMsg="jr:itext('/data/location_data/location_type:constraintMsg')"/>
+      <bind nodeset="/data/location_data/location_coordinates" type="geopoint" jr:constraintMsg="jr:itext('/data/location_data/location_coordinates:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_date" type="date" required="true()" jr:requiredMsg="jr:itext('/data/visit_group/visit_date:requiredMsg')" calculate="now()" jr:constraintMsg="jr:itext('/data/visit_group/visit_date:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/location_status" type="select1" required="true()"/>
+      <bind nodeset="/data/visit_group/visit_form/visit/visit_host_gender" type="select1" relevant="(selected(/data/visit_group/location_status, 'E'))" jr:constraintMsg="jr:itext('/data/visit_group/visit_form/visit/visit_host_gender:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_form/visit/visit_host_age" type="int" relevant="(selected(/data/visit_group/location_status, 'E'))" jr:constraintMsg="jr:itext('/data/visit_group/visit_form/visit/visit_host_age:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_form/visit/services_fumigation" type="select1" relevant="(selected(/data/visit_group/location_status, 'E'))" jr:constraintMsg="jr:itext('/data/visit_group/visit_form/visit/services_fumigation:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_form/visit/services_larvicide" type="select1" relevant="(selected(/data/visit_group/location_status, 'E'))" jr:constraintMsg="jr:itext('/data/visit_group/visit_form/visit/services_larvicide:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_form/visit/visit_obs" type="string" relevant="(selected(/data/visit_group/location_status, 'E'))" jr:constraintMsg="jr:itext('/data/visit_group/visit_form/visit/visit_obs:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/visit_form/autoreporte" type="select1" relevant="(selected(/data/visit_group/location_status, 'E'))"/>
+      <bind nodeset="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_dengue" type="int" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/autoreporte, '1'))"/>
+      <bind nodeset="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_chik" type="int" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/autoreporte, '1'))"/>
+      <bind nodeset="/data/visit_group/visit_form/auto_report_numbers/auto_reporte_number_zika" type="int" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/autoreporte, '1'))"/>
+      <bind nodeset="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant" type="select1" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/autoreporte, '1'))"/>
+      <bind nodeset="/data/visit_group/visit_form/symptoms" type="select1" relevant="(selected(/data/visit_group/location_status, 'E'))"/>
+      <bind nodeset="/data/visit_group/visit_form/symptoms_report/symptoms_gender" type="select1" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/symptoms, '1'))"/>
+      <bind nodeset="/data/visit_group/visit_form/symptoms_report/symptom_list" type="select" relevant="(selected(/data/visit_group/location_status, 'E')) and (selected(/data/visit_group/visit_form/symptoms, '1'))"/>
+      <bind nodeset="/data/visit_group/inspection/breeding_site_code" type="select1"/>
+      <bind nodeset="/data/visit_group/inspection/breeding_site_amount" type="int"/>
+      <bind nodeset="/data/visit_group/inspection/br_protected" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/visit_group/inspection/br_protected:requiredMsg')" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_protected:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/inspection/br_larvae" type="select1" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_larvae:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/inspection/br_pupae" type="select1" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_pupae:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/inspection/breeding_site_description" type="string"/>
+      <bind nodeset="/data/visit_group/inspection/br_picture" type="binary" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_picture:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/inspection/br_elimination_date" type="date" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_elimination_date:constraintMsg')"/>
+      <bind nodeset="/data/visit_group/inspection/br_elimination_picture" type="binary" jr:constraintMsg="jr:itext('/data/visit_group/inspection/br_elimination_picture:constraintMsg')"/>
+      <bind nodeset="/data/metadata_end_time" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+      <bind nodeset="/data/metadata_device_id" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/location:label')"/>
+      <input ref="/data/location/location_code">
+        <label ref="jr:itext('/data/location/location_code:label')"/>
+        <hint ref="jr:itext('/data/location/location_code:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/location_data:label')"/>
+      <input ref="/data/location_data/location_code_manual">
+        <label ref="jr:itext('/data/location_data/location_code_manual:label')"/>
+        <hint ref="jr:itext('/data/location_data/location_code_manual:hint')"/>
+      </input>
+      <select1 ref="/data/location_data/location_type">
+        <label ref="jr:itext('/data/location_data/location_type:label')"/>
+        <hint ref="jr:itext('/data/location_data/location_type:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option0')"/>
+          <value>V</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option1')"/>
+          <value>G</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option2')"/>
+          <value>P</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option3')"/>
+          <value>Re</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option4')"/>
+          <value>B</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option5')"/>
+          <value>H</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option6')"/>
+          <value>O</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option7')"/>
+          <value>T</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option8')"/>
+          <value>C</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option9')"/>
+          <value>Ch</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option10')"/>
+          <value>D</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option11')"/>
+          <value>Pu</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option12')"/>
+          <value>ED</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/location_data/location_type:option13')"/>
+          <value>X</value>
+        </item>
+      </select1>
+      <input ref="/data/location_data/location_coordinates">
+        <label ref="jr:itext('/data/location_data/location_coordinates:label')"/>
+        <hint ref="jr:itext('/data/location_data/location_coordinates:hint')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/visit_group:label')"/>
+      <repeat nodeset="/data/visit_group">
+        <input ref="/data/visit_group/visit_date">
+          <label ref="jr:itext('/data/visit_group/visit_date:label')"/>
+          <hint ref="jr:itext('/data/visit_group/visit_date:hint')"/>
+        </input>
+        <select1 ref="/data/visit_group/location_status">
+          <label ref="jr:itext('/data/visit_group/location_status:label')"/>
+          <hint ref="jr:itext('/data/visit_group/location_status:hint')"/>
+          <item>
+            <label ref="jr:itext('/data/visit_group/location_status:option0')"/>
+            <value>E</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/visit_group/location_status:option1')"/>
+            <value>C</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/data/visit_group/location_status:option2')"/>
+            <value>R</value>
+          </item>
+        </select1>
+        <group>
+          <label ref="jr:itext('/data/visit_group/visit_form:label')"/>
+          <group appearance="field-list">
+            <label ref="jr:itext('/data/visit_group/visit_form/visit:label')"/>
+            <select1 ref="/data/visit_group/visit_form/visit/visit_host_gender">
+              <label ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_gender:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_gender:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_gender:option0')"/>
+                <value>M</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_gender:option1')"/>
+                <value>F</value>
+              </item>
+            </select1>
+            <input ref="/data/visit_group/visit_form/visit/visit_host_age" appearance="no-ticks">
+              <label ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_age:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/visit/visit_host_age:hint')"/>
+            </input>
+            <select1 ref="/data/visit_group/visit_form/visit/services_fumigation" appearance="horizontal">
+              <label ref="jr:itext('/data/visit_group/visit_form/visit/services_fumigation:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/visit/services_fumigation:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/services_fumigation:option0')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/services_fumigation:option1')"/>
+                <value>0</value>
+              </item>
+            </select1>
+            <select1 ref="/data/visit_group/visit_form/visit/services_larvicide" appearance="horizontal">
+              <label ref="jr:itext('/data/visit_group/visit_form/visit/services_larvicide:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/visit/services_larvicide:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/services_larvicide:option0')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/visit/services_larvicide:option1')"/>
+                <value>0</value>
+              </item>
+            </select1>
+            <input ref="/data/visit_group/visit_form/visit/visit_obs">
+              <label ref="jr:itext('/data/visit_group/visit_form/visit/visit_obs:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/visit/visit_obs:hint')"/>
+            </input>
+          </group>
+          <select1 ref="/data/visit_group/visit_form/autoreporte">
+            <label ref="jr:itext('/data/visit_group/visit_form/autoreporte:label')"/>
+            <hint ref="jr:itext('/data/visit_group/visit_form/autoreporte:hint')"/>
+            <item>
+              <label ref="jr:itext('/data/visit_group/visit_form/autoreporte:option0')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/visit_group/visit_form/autoreporte:option1')"/>
+              <value>0</value>
+            </item>
+          </select1>
+          <group appearance="field-list">
+            <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers:label')"/>
+            <input ref="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_dengue">
+              <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_number_dengue:label')"/>
+            </input>
+            <input ref="/data/visit_group/visit_form/auto_report_numbers/auto_report_number_chik">
+              <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_number_chik:label')"/>
+            </input>
+            <input ref="/data/visit_group/visit_form/auto_report_numbers/auto_reporte_number_zika">
+              <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_reporte_number_zika:label')"/>
+            </input>
+            <select1 ref="/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant">
+              <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option0')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/auto_report_numbers/auto_report_zika_number_pregnant:option1')"/>
+                <value>0</value>
+              </item>
+            </select1>
+          </group>
+          <select1 ref="/data/visit_group/visit_form/symptoms">
+            <label ref="jr:itext('/data/visit_group/visit_form/symptoms:label')"/>
+            <hint ref="jr:itext('/data/visit_group/visit_form/symptoms:hint')"/>
+            <item>
+              <label ref="jr:itext('/data/visit_group/visit_form/symptoms:option0')"/>
+              <value>1</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/visit_group/visit_form/symptoms:option1')"/>
+              <value>0</value>
+            </item>
+          </select1>
+          <group appearance="field-list">
+            <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report:label')"/>
+            <select1 ref="/data/visit_group/visit_form/symptoms_report/symptoms_gender">
+              <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptoms_gender:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptoms_gender:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptoms_gender:option0')"/>
+                <value>F</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptoms_gender:option1')"/>
+                <value>M</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptoms_gender:option2')"/>
+                <value>X</value>
+              </item>
+            </select1>
+            <select ref="/data/visit_group/visit_form/symptoms_report/symptom_list">
+              <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:label')"/>
+              <hint ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:hint')"/>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option0')"/>
+                <value>1</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option1')"/>
+                <value>2</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option2')"/>
+                <value>3</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option3')"/>
+                <value>4</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option4')"/>
+                <value>5</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option5')"/>
+                <value>6</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option6')"/>
+                <value>7</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option7')"/>
+                <value>8</value>
+              </item>
+              <item>
+                <label ref="jr:itext('/data/visit_group/visit_form/symptoms_report/symptom_list:option8')"/>
+                <value>9</value>
+              </item>
+            </select>
+          </group>
+        </group>
+        <group>
+          <label ref="jr:itext('/data/visit_group/inspection:label')"/>
+          <repeat nodeset="/data/visit_group/inspection">
+            <group appearance="field-list">
+              <select1 ref="/data/visit_group/inspection/breeding_site_code" appearance="minimal">
+                <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/breeding_site_code:hint')"/>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option0')"/>
+                  <value>A</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option1')"/>
+                  <value>P</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option2')"/>
+                  <value>B</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option3')"/>
+                  <value>T</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option4')"/>
+                  <value>L</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option5')"/>
+                  <value>M</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/breeding_site_code:option6')"/>
+                  <value>X</value>
+                </item>
+              </select1>
+              <range ref="/data/visit_group/inspection/breeding_site_amount" start="1" end="20" step="1" appearance="picker">
+                <label ref="jr:itext('/data/visit_group/inspection/breeding_site_amount:label')"/>
+              </range>
+              <select1 ref="/data/visit_group/inspection/br_protected" appearance="horizontal">
+                <label ref="jr:itext('/data/visit_group/inspection/br_protected:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_protected:hint')"/>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_protected:option0')"/>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_protected:option1')"/>
+                  <value>0</value>
+                </item>
+              </select1>
+              <select1 ref="/data/visit_group/inspection/br_larvae" appearance="horizontal">
+                <label ref="jr:itext('/data/visit_group/inspection/br_larvae:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_larvae:hint')"/>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_larvae:option0')"/>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_larvae:option1')"/>
+                  <value>0</value>
+                </item>
+              </select1>
+              <select1 ref="/data/visit_group/inspection/br_pupae" appearance="horizontal">
+                <label ref="jr:itext('/data/visit_group/inspection/br_pupae:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_pupae:hint')"/>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_pupae:option0')"/>
+                  <value>1</value>
+                </item>
+                <item>
+                  <label ref="jr:itext('/data/visit_group/inspection/br_pupae:option1')"/>
+                  <value>0</value>
+                </item>
+              </select1>
+              <input ref="/data/visit_group/inspection/breeding_site_description">
+                <label ref="jr:itext('/data/visit_group/inspection/breeding_site_description:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/breeding_site_description:hint')"/>
+              </input>
+              <upload ref="/data/visit_group/inspection/br_picture" mediatype="image/*">
+                <label ref="jr:itext('/data/visit_group/inspection/br_picture:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_picture:hint')"/>
+              </upload>
+              <input ref="/data/visit_group/inspection/br_elimination_date">
+                <label ref="jr:itext('/data/visit_group/inspection/br_elimination_date:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_elimination_date:hint')"/>
+              </input>
+              <upload ref="/data/visit_group/inspection/br_elimination_picture" mediatype="image/*">
+                <label ref="jr:itext('/data/visit_group/inspection/br_elimination_picture:label')"/>
+                <hint ref="jr:itext('/data/visit_group/inspection/br_elimination_picture:hint')"/>
+              </upload>
+            </group>
+          </repeat>
+        </group>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>
