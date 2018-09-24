@@ -3,7 +3,7 @@ Cómo instalar ODK (Open Data Kit)
 1. Ingresar al Play Store ODK 
 2. Clic en Instalar/Aceptar.
 3. Abrir la app.
-
+![esto es gif](https://i.gyazo.com/1a7f9fede0fb543698d2de3cb92bf9cb.gif)
 Cómo configurar Google Sheets.
 ------------------------------
 4. Ingresar en los tres puntitos que esta a derecha del Menú Principal.
