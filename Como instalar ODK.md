@@ -6,7 +6,6 @@ Cómo instalar ODK (Open Data Kit)
 ![esto es gif](https://i.gyazo.com/1a7f9fede0fb543698d2de3cb92bf9cb.gif)
 
 
-![esto es gif]https://drive.google.com/drive/folders/1eJ2l8uw6zsqA7E2qZKh0-sVGtBBWTVeM?ogsrc=32
 Cómo configurar Google Sheets.
 ------------------------------
 4. Ingresar en los tres puntitos que esta a derecha del Menú Principal.
