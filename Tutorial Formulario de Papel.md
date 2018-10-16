@@ -17,8 +17,9 @@ Seguimos completando el formulario de la siguiente manera:
     + P- Pileta.
     + L- Llanta.
     + B- Barril, Tambor.
-    + X- Otros.
-   M- Macetera o florero con agua
+    + T- Botellas 
+    + X- Otros (tinas, sanitarios, basuras, etc.)
+    + M- Macetera o florero con agua
 9.	¿Protegido? 0 (No), 1 (Sí)
 10.	¿Larvas? 0 (No), 1 (Sí)
 11.	¿Pupas? 0 (No), 1 (Sí)
